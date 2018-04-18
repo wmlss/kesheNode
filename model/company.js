@@ -9,7 +9,6 @@ const Schema = mongoose.Schema;
 
 const companySchema = mongoose.Schema({
   companyName: {type: String, required:true},
-  companyName: {type: String, required:true},
   principal: {type: String, required:true},
   phone: {type: Number, required:true},
   companyPlace: {type: String, required:true},
